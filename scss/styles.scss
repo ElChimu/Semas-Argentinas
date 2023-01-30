@@ -1,5 +1,8 @@
-@import "reset";
+@import "variables";
 @import "globales";
+@import "reset";
+@import "medias-query";
+@import"mixin";
 @import "index";
 @import"quienes-somos";
 @import"galeria";
