@@ -32,7 +32,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav container-fluid d-flex flex-row justify-content-center align-items-center mt-4">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Inicio</a>
                         </li>
@@ -58,24 +58,50 @@
                 </div>
             </div>
         </nav>
+        <div class="container-fluid d-flex flex-row align-items-center justify-content-around">
         <a href="https://www.instagram.com/semasargentinas_/" target="_blank"><img src="img/instagram.png"
                 alt="logo-instagram" width="50px" height="50px"></a>
         <a href="https://wa.me/+541162994928?text= Hola!%20Estoy%20interesad@%20en%20comprar%20un%20blíster%20"
             target="_blank"><img src="img/whatsapp.png" alt="logo-whatsapp" width="50px" height="50px"></a>
+        </div>
     </header>
 
     <section>
-        <h1>Bienvenidos al primer banco de semillas Argentinas</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt corporis inventore ex? Est adipisci
+        <h1 class="text-center">Bienvenidos al primer banco de semillas Argentinas</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt corporis inventore ex? Est adipisci
             totam, nisi odio deleniti dolore nam dolorum et, optio unde praesentium inventore, voluptatibus eos enim!
             Odit deleniti minus magni possimus voluptatem est praesentium sapiente beatae veniam, aliquid, sed explicabo
             vel, quisquam odio minima adipisci. Deserunt, vel distinctio tempore, ipsum, enim et quos illo eveniet
             molestiae qui officia! Assumenda maxime sequi provident quasi dolorum soluta perspiciatis unde nostrum et
             quaerat possimus quis modi, amet ipsam cumque!</p>
-        <img src="img/inicio-img.webp" alt="inicio-img" width="80%" height="600px">
+    </section>
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active d-flex flex-row justify-content-center">
+                    <img src="/img/inicio-img.webp" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item d-flex flex-row justify-content-center">
+                    <img src="/img/inicio-img.webp" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item d-flex flex-row justify-content-center">
+                    <img src="/img/inicio-img.webp" class="d-block" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
     <footer>
-        <p> Semas argentinas todos los derechos reservados</p>
+        <p class="text-center"> Semas argentinas todos los derechos reservados</p>
     </footer>
 
     <!-- Link Animaciones -->
