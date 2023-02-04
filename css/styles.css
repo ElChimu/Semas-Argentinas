@@ -75,4 +75,14 @@ img {
   grid-template-areas: "header" "nav" "section" "section" "footer";
 }
 
+.body-catalogo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "header" "nav" "section" "footer";
+}
+
+.row {
+  margin: 4px 0px 5px 0px;
+}
+
 /*# sourceMappingURL=styles.css.map */
