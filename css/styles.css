@@ -2,6 +2,11 @@ body {
   background-image: linear-gradient(to bottom left, black, gray);
 }
 
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 h1 {
   color: white;
 }
@@ -23,6 +28,11 @@ p {
   background-color: gray;
 }
 
+footer {
+  border: solid 2px;
+  background-color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +41,12 @@ p {
 
 img {
   max-width: 100%;
+}
+
+.body-inicio {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "header" "nav" "section" "section" "footer";
 }
 
 /*# sourceMappingURL=styles.css.map */

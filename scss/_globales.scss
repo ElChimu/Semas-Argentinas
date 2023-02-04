@@ -2,6 +2,12 @@ body {
     background-image: linear-gradient(to bottom left, black, gray);
 }
 
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
 h1 {
     color: white;
 }
@@ -19,4 +25,9 @@ color: black;
 .navbar-toggler {
     color: gray;
     background-color: gray;
+}
+
+footer{
+    border: solid 2px;
+    background-color: black;
 }
