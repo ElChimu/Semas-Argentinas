@@ -1,0 +1,25 @@
+/*Media query index pantalla chica y mediana*/ 
+
+@media screen and (min-width: 320px){
+    nav {
+        display: flex;
+        flex-direction: column; 
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+/*Media query quienes somos pantalla chica y mediana*/ 
+
+@media screen and (min-width: 320px) {
+    img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.body-inicio{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "section"
+    "footer";
+}
