@@ -1,0 +1,24 @@
+legend{
+    color: white;
+}
+
+label{
+    color: goldenrod;
+    font-size: 25px;
+    margin-inline-end: 2rem;
+    margin-top: 1rem;
+}
+input{
+    background-color: rgb(170, 170, 170);
+}
+select{
+    background-color: rgb(170, 170, 170);
+}
+button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-inline: 1rem;
+    padding: 8px;
+    border-radius: 15%;
+    cursor: pointer;
+}

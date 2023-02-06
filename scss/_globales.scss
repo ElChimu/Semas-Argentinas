@@ -2,12 +2,6 @@ body {
     background-image: linear-gradient(to bottom left, black, gray);
 }
 
-body{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-
 h1 {
     color: white;
 }
