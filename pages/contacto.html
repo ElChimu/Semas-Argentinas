@@ -69,8 +69,8 @@
 
     <main>
         <!-- Titulo Animado -->
-        <section class="d-flex flex-column align-items-center justify-content-center mb-5 mt-5">
-            <h1>Completá el formulario y nosotros nos ponemos en contacto con vos.</h1>
+        <section class="mb-5 mt-5">
+            <h1 class="text-center">Completá el formulario y nosotros nos ponemos en contacto con vos.</h1>
         </section>
 
         <!-- Formulario -->
@@ -86,51 +86,53 @@
 
                 </div>
 
-                <div class="form">
+                <div>
                     <label for="apellido">Apellido</label>
                     <input type="text" name="" id="apellido" required placeholder="Apellido">
 
                 </div>
-                <div class="form">
+                <div>
 
-                    <label for="email">Email</label>
+                    <label class="text-center" for="email">Email</label>
                     <input type="email" name="" id="email" required placeholder="tu@email">
 
                 </div>
 
-                <div class="form">
+                <div>
 
                     <label for="telefono">Teléfono</label>
                     <input type="tel" name="" id="telefono" required placeholder="Tu teléfono">
 
                 </div>
-                <div class="form">
+                <div>
 
                     <label for="direccion">Dirección</label>
                     <input type="text" name="" id="direccion" required placeholder="Tu dirección">
 
                 </div>
 
-                <div class="form">
+                <div>
 
-                    <label for="modelo">Modelo</label required>
+                    <label for="geneticas">Genéticas</label required>
 
-                    <select name="" id="modelo">
+                    <select name="" id="geneticas">
 
-                        <option disabled selected value="">Seleccioná el modelo de consulta</option>
-                        <option value="">Toyota Hilux</option>
-                        <option value="">Toyota Corolla</option>
-                        <option value="">Toyota SW4</option>
-                        <option value="">Toyota Etios</option>
-                        <option value="">Toyota Yaris</option>
+                        <option disabled selected value="">Genética de consulta</option>
+                        <option value="">Monby Dick</option>
+                        <option value="">Gorila Glue</option>
+                        <option value="">AK-47</option>
+                        <option value="">Norder Ligths</option>
+                        <option value="">Moby Lemon</option>
 
                     </select>
 
                 </div>
-                <div class="form">
-                    <label for="provincia">Selecciona tu provincia</label>
+                <div>
+                    <label class="text-center" for="provincia">Seleccioná tu provincia</label>
+                </div>
+                <div>
                     <select name="" id="provincia" required>
-                        <option disabled selected>Seleccioná tu provincia</option>
+                        <option class="text-center" disabled selected>Provincia</option>
                         <option>Buenos Aires</option>
                         <option>Ciudad Autónoma de Buenos Aires</option>
                         <option>Catamarca</option>
@@ -155,8 +157,9 @@
                         <option>Santiago del Estero</option>
                         <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
                         <option>Tucumán</option><br><br>
+                </div>
 
-                    </select>
+                </select>
 
                 </div>
 
@@ -164,7 +167,7 @@
                     <label class="mb-3" for="comentarios">Dejanos tu comentario</label>
                 </div>
 
-                <div>
+                <div class="d-flex align-items-center justify-content-center">
                     <textarea name="" id="comentarios" cols="50" rows="10" maxlength="140"></textarea>
                 </div>
 
